@@ -15,7 +15,9 @@ namespace AbstractClass {
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new MainForm());
             Console.WriteLine(Application.ProductName);
-            
+            Rectangle rectangle = new Rectangle(0.0f, 0.0f, 10.0f, 10.0f);
+            Console.WriteLine("Perimetr " + rectangle.Perimetr().ToString());
+            Console.WriteLine("Area " + rectangle.Area().ToString());
         }
     }
 }

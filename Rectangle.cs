@@ -9,12 +9,15 @@ namespace AbstractClass {
     public class Rectangle {
         List<PointF> Vertexes = new List<PointF>();
         float SideA, SideB;
-        float Area() {
+        public float Area() {
             return SideA * SideB;
+        }
+        public float Perimetr() {
+            return (SideA + SideB) * 2;
         }
 
 
-        Rectangle(float x1, float x2, float y1, float y2) {
+        public Rectangle(float x1, float y1, float x2,  float y2) {
             Vertexes.Add(new PointF(x1, y1));
             Vertexes.Add(new PointF(x1, y2));
             Vertexes.Add(new PointF(x2, y1));
