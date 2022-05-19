@@ -1,0 +1,10 @@
+C:\Users\Admin\source\repos\AbstractClass\bin\Debug\AbstractClass.exe.config
+C:\Users\Admin\source\repos\AbstractClass\bin\Debug\AbstractClass.exe
+C:\Users\Admin\source\repos\AbstractClass\bin\Debug\AbstractClass.pdb
+C:\Users\Admin\source\repos\AbstractClass\obj\Debug\AbstractClass.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\AbstractClass\obj\Debug\AbstractClass.Properties.Resources.resources
+C:\Users\Admin\source\repos\AbstractClass\obj\Debug\AbstractClass.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\AbstractClass\obj\Debug\AbstractClass.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\AbstractClass\obj\Debug\AbstractClass.exe
+C:\Users\Admin\source\repos\AbstractClass\obj\Debug\AbstractClass.pdb
+C:\Users\Admin\source\repos\AbstractClass\obj\Debug\AbstractClass.MainForm.resources
