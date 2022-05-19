@@ -10,8 +10,24 @@ using System.Windows.Forms;
 
 namespace AbstractClass {
     public partial class MainForm : Form {
+        List <Shape> rectangles = new List<Shape>();
         public MainForm() {
+            Text = Application.ProductName;
             InitializeComponent();
+            rectangles.Add(new Rectangle(Pens.Red, 20f, 20f, 60f, 40f));
+            rectangles.Add(new Rectangle(Pens.Green, 70f, 20f, 120f, 40f));
+            rectangles.Add(new Rectangle(Pens.Blue, 130f, 20f, 170f, 40f));
+            PointF VertexA = new PointF(180f, 20f);
+            PointF VertexB = new PointF(120f, 40f);
+            PointF VertexC = new PointF(240f, 40f);
+            rectangles.Add(new Triangel(Pens.Blue, VertexA, VertexB, VertexC));
+        }
+     
+ 
+        private void MainForm_Paint(object sender, PaintEventArgs e) {
+            for (int i = 0; i < rectangles.Count; i++) {
+                 rectangles[i].Draw(e);
+            }
         }
     }
 }
