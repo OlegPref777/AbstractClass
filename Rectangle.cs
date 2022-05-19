@@ -31,5 +31,8 @@ namespace AbstractClass {
                 SideB = -SideB;
             }
         }
+        void Drav() { 
+
+        }
     }
 }
